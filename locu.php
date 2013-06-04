@@ -7,13 +7,13 @@
  * @package Locu
  *
  * @author Locu
- * @version 0.0
+ * @version 1.0
  */
 /*
 Plugin Name: Locu for WordPress
 Plugin URI: http://www.locu.com/
 Description: Easily add your menus with the shortcode [menu] 
-Version: 0.0
+Version: 1.0
 Author: Locu
 Author URI: http://www.locu.com
 License: GPL2
@@ -37,7 +37,7 @@ class LocuForWordPress {
     var $longname = "Locu for WordPress";
     var $shortname = "Locu";
     var $namespace = 'Locu-for-wordpress';
-    var $version = '0.0';
+    var $version = '1.0';
     var $defaults = array(
         'Locu_code' => "",
     );
